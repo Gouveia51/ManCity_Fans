@@ -8,12 +8,12 @@
 
  Sobre 
  ---
- O site visa disponibilizar informações actuais sobre o **Manchester_City, __stories, permitir que os adeptos do Manchester City possam se cadastrar e formar uma comunidade.
+ O site visa disponibilizar informações actuais sobre o **Manchester City**, _stories_, e permitir que os adeptos do Manchester City possam se cadastrar e formar uma comunidade.
  ___
 
  Tecnologias
  ---
- * HTML
- * CSS
- * JavaScript
+ * [HTML](https://www.w3schools.com/html/)
+ * [CSS](https://www.w3schools.com/css/)
+ * [JavaScript](https://www.w3schools.com/js/)
  ___
