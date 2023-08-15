@@ -52,33 +52,50 @@
   border-bottom: 2px solid transparent;
 }
 
-.menu_bar ul li a:hover{
-  color:skyblue;
-  border-bottom: 1px solid #000;
-  transition: all 400ms ease;
+.menu_bar li a:hover{
+  color: skyblue;
+}
+
+.transicao::after{
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0;
+  transition: .4s;
+  background:#000;
+  
+}
+
+.transicao:hover:after{
+  width: 100%;
+  transition: .4s;
+
 }
 
 .menu_bar #btnR{
   background-color: skyblue;
   text-decoration:none;
-  font-size: 14px;
+  font-size: 15px;
   letter-spacing: 1px;
   text-transform: capitalize;
   border: 2px solid #fff;
   padding:13px 9px;
   border-radius: 30px;
-  color: #000;
-  transition: all 400ms ease;
+  color: #fff;
   font-weight: 500;
+  transition: all .6s ease;
 }
 
 .menu_bar #btnR:hover{
-  background-color:skyblue;
-  color: #fff;
+  background-color: transparent;
+  border: 2px solid skyblue;
+  color: #000;
+  transition: all .6s ease;
 }
 
 .corpo{
   display: flex;
+  flex: 1;
   flex-direction: column;
   width: 100%;
   height: 100vh;
@@ -105,7 +122,50 @@
   top: 40%;
 }
 
+.sobre{
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  padding: 17px;
+  background: #f8f9fa;
+}
 
+.sobre_conteudo{
+  width: 700px;
+  height: 100px;
+  padding: 18px;
+}
+
+.sobre_conteudo article h2{
+  color: skyblue;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.sobre_conteudo article h4{
+  font-weight: 500;
+  color:#000;
+}
+
+.sobre_conteudo_span{
+  color: #f94144;
+}
+
+.sobre_conteudo article p{
+  padding: 12px;
+  text-transform: capitalize;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+
+.img{
+  width: 500px;
+  height: 500px;
+  margin-left:30px;
+  padding: 18px;
+  margin-top: 90px;
+}
 .footer{
   background-color: red;
   height: 10px;
