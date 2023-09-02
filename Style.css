@@ -50,6 +50,7 @@
   font-size: 18px;
   font-weight: 500;
   border-bottom: 2px solid transparent;
+  cursor: pointer;
 }
 
 .menu_bar li a:hover{
@@ -84,6 +85,7 @@
   color: #fff;
   font-weight: 500;
   transition: all .6s ease;
+  cursor: pointer;
 }
 
 .menu_bar #btnR:hover{
@@ -125,13 +127,13 @@
 .sobre{
   display: flex;
   width: 100%;
-  min-height: 100vh;
-  padding: 17px;
+  min-height: 70vh;
+  padding: 14px;
   background: #f8f9fa;
 }
 
 .sobre_conteudo{
-  width: 700px;
+  width: 600px;
   height: 100px;
   padding: 18px;
 }
@@ -164,7 +166,12 @@
   height: 500px;
   margin-left:30px;
   padding: 18px;
-  margin-top: 90px;
+  margin-top: 60px;
+}
+
+.storys{
+  display: flex;
+  flex-direction: row;
 }
 .footer{
   background-color: red;
